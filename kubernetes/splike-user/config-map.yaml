@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env
+data:
+  DB_JDBC_MASTER_URL: ""
+  DB_JDBC_SLAVE_URL: ""
+  DB_USER_NAME: ""
+  DB_USER_PASSWORD: ""
+  JAVA_OPTS: ""
+  TZ: Asia/Tokyo

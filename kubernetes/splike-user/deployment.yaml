@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: splike-user
-          image: asia-northeast1-docker.pkg.dev/splike/splike-user/latest
+          image: asia-northeast1-docker.pkg.dev/splike/docker/user:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

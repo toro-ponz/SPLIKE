@@ -57,3 +57,15 @@ Build docker image.
 ```shell
 docker build -t splike-user .
 ```
+
+Tagging docker image.
+
+```shell
+docker tag splike-user asia-northeast1-docker.pkg.dev/splike/docker/user:latest
+```
+
+Push docker image.
+
+```shell
+docker push asia-northeast1-docker.pkg.dev/splike/docker/user:latest
+```

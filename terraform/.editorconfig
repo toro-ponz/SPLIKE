@@ -1,0 +1,4 @@
+root = false
+
+[*.{tf,tfvars,hcl}]
+indent_size = 2
